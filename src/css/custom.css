@@ -1,0 +1,30 @@
+/* Set default colors to black and white */
+:root {
+  --ifm-color-primary: #404040 !important;
+  --ifm-color-primary-dark: #3a3a3a !important;
+  --ifm-color-primary-darker: #363636 !important;
+  --ifm-color-primary-darkest: #2d2d2d !important;
+  --ifm-color-primary-light: #464646 !important;
+  --ifm-color-primary-lighter: #4a4a4a !important;
+  --ifm-color-primary-lightest: #535353 !important;
+  --ifm-code-font-size: 95% !important;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #e5e5e5 !important;
+  --ifm-color-primary-dark: #cecece !important;
+  --ifm-color-primary-darker: #c3c3c3 !important;
+  --ifm-color-primary-darkest: #a0a0a0 !important;
+  --ifm-color-primary-light: #fcfcfc !important;
+  --ifm-color-primary-lighter: #ffffff !important;
+  --ifm-color-primary-lightest: #ffffff !important;
+  --ifm-background-color: #000000 !important;
+  --ifm-code-font-size: 95% !important;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2) !important;
+}
+
+.main-wrapper {
+  justify-content: center;
+}
