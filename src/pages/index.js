@@ -15,10 +15,10 @@ function Homepage() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/rayfield">
-            Rayfield
+            gasps ui
           </Link>
           <Link className="button button--secondary button--lg" to="/sense">
-            Sense
+            gasps executor
           </Link>
         </div>
       </div>

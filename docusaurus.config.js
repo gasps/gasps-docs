@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "gasps Docs",
+  title: "gasps docs",
   tagline: "Documentation for all gasps related projects",
   favicon: "img/favicon.ico",
 
@@ -75,7 +75,7 @@ const config = {
         { name: "theme-color", content: "#2B2D31" },
         {
           name: "description",
-          content: "Documentation for all gasps related projects",
+          content: "documentation for all gasps related projects",
         },
         { property: "og:title", content: "gasps Docs" },
         { property: "og:type", content: "article" },
@@ -85,7 +85,7 @@ const config = {
         {
           name: "description",
           property: "og:description",
-          content: "Documentation for all gasps related projects",
+          content: "documentation for all gasps related projects",
         },
         { property: "og:site_name", content: "gasps Docs" },
         { name: "twitter:card", content: "summary_large_image" },
@@ -93,28 +93,28 @@ const config = {
         { name: "twitter:title", content: "gasps Docs" },
         {
           name: "twitter:description",
-          content: "Documentation for all gasps related projects",
+          content: "documentation for all gasps related projects",
         },
         { name: "twitter:image:alt", content: "gasps Docs" },
       ],
       // Replace with your project's social card
       image: "img/Docs.png",
       navbar: {
-        title: "gasps Docs",
+        title: "gasps docs",
         logo: {
-          alt: "Sirius",
+          alt: "test",
           src: "img/logo.svg",
         },
         style: "dark",
         items: [
           {
             to: "/rayfield",
-            label: "Rayfield",
+            label: "gasps UI",
             position: "left",
           },
           {
             to: "/sense",
-            label: "Sense",
+            label: "sense",
             position: "left",
           },
           {
